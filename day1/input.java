@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class input {
+    public static void main(String args[]){
+        Scanner inputObj = new Scanner(System.in);
+        int a = inputObj.nextInt();
+
+    }
+     

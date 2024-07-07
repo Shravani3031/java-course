@@ -1,8 +1,11 @@
+import java.util.Scanner;
+
 public class Main{
     public static void main(String args[]) {
     System.out.println("basicCalaculators");
-    int a = 5;
-    int b = 3;
+    Scanner inputObj = new Scanner(System.in);
+    int a = inputObj.nextInt();
+    int b = inputObj.nextInt();
     
     int addition = a+b;
     int subtraction = a-b;
