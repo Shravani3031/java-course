@@ -16,5 +16,6 @@ public class Main{
     System.out.println(multiplication);
     System.out.println(division);
     
+    
     }
 }
